@@ -6,7 +6,7 @@
 
 This is a Microsoft Teams bot that will send a message to your channel when a charge fails to process on your Stripe account. It contains the customer's email, the amount of the charge, and a link to the failed payment in the Stripe dashboard for further examination.
 
-![](./readme/images/charge-failure.png)
+![](./readme/images/charge-failure-message.png)
 
 Setup is simple –– you can deploy it without writing any code or configuring any files due to Standard Library's [Identity Token](https://docs.stdlib.com/identity-management-sso-for-apis/what-is-an-identity-token/) support! You will need to add the Standard Library bot to your Microsoft Teams organization, link your Stripe account to Standard Library, and deploy.
 
@@ -24,7 +24,7 @@ You should see a screen like this:
 
 ![](./readme/images/deploy-github-modal.png)
 
-Save your project, then open `functions/events/scheduler/daily.js` in the sidebar and click the red **2 Accounts Required** button in the lower right corner.
+Save your project, then open `functions/events/stripe/charge/failed.js` in the sidebar and click the red **2 Accounts Required** button in the lower right corner.
 
 ![](./readme/images/active-endpoint.png)
 
