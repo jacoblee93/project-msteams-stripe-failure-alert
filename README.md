@@ -30,7 +30,9 @@ Save your project, then open `functions/events/stripe/charge/failed.js` in the s
 
 You'll then see a modal appear that will prompt you to link your Stripe account and to select a specific team within your Microsoft Teams organization where you would like to receive alerts.
 
-Once you've linked the required resources, press the blue **Deploy** button to deploy your project live.
+Once you've linked the required resources, you can press the green **Run Code** button to test your endpoint.
+
+Once you've verified things are working, press the blue **Deploy** button to deploy your project live.
 
 That's it, you're all done! Your bot should be ready to go.
 
