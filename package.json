@@ -1,0 +1,8 @@
+{
+  "name": "msteams-stripe-failure-alert",
+  "author": "Jacob Lee <jacob@polybit.com>",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest"
+  }
+}

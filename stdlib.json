@@ -1,0 +1,11 @@
+{
+  "name": "jacoblee/msteams-stripe-failure-alert",
+  "version": "0.0.0",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/stripe/charge/failed.js": {
+      "name": "stripe.charge.failed"
+    }
+  }
+}
